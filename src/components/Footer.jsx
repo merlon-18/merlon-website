@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="py-12 border-t border-border">
       <div className="wrap flex flex-col md:flex-row items-center justify-between gap-4">
         <span className="font-display text-sm font-light text-text-3">
-          merlon<span className="text-accent"> studios</span> — {new Date().getFullYear()}
+          merlon<span className="text-accent"> digital</span> — {new Date().getFullYear()}
         </span>
         <div className="flex gap-6">
           <a

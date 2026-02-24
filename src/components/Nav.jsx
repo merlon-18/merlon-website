@@ -33,7 +33,7 @@ export default function Nav({ onOpenRadar }) {
     >
       <div className="wrap flex items-center justify-between" style={{ height: 64 }}>
         <a href="#" className="font-display text-[22px] font-light tracking-[-0.5px] text-text no-underline">
-          merlon<span className="text-accent"> studios</span>
+          merlon<span className="text-accent"> digital</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">

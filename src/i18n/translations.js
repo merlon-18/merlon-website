@@ -8,7 +8,7 @@ export const translations = {
 
     // ─── Hero ───
     hero: {
-      label: 'merlon studios',
+      label: 'merlon digital',
       title: 'Építsük fel együtt a',
       titleBreak: 'digitális',
       titleHighlight: 'jövődet.',
@@ -338,7 +338,7 @@ export const translations = {
 
     // ─── Hero ───
     hero: {
-      label: 'merlon studios',
+      label: 'merlon digital',
       title: "Let's build your digital",
       titleBreak: '',
       titleHighlight: 'future.',
