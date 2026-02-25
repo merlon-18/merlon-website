@@ -32,15 +32,15 @@ export default function Nav({ onOpenRadar }) {
       }}
     >
       <div className="wrap flex items-center justify-between" style={{ height: 64 }}>
-        <a href="#" className="font-display text-[22px] font-light tracking-[-0.5px] text-text no-underline">
+        <a href={`/${lang}`} className="font-display text-[22px] font-light tracking-[-0.5px] text-text no-underline">
           merlon<span className="text-accent"> digital</span>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#services" className="font-mono text-xs text-text-3 tracking-[0.04em] no-underline hover:text-text transition-colors">
+          <a href={`/${lang}#services`} className="font-mono text-xs text-text-3 tracking-[0.04em] no-underline hover:text-text transition-colors">
             {t.nav.services}
           </a>
-          <a href="#process" className="font-mono text-xs text-text-3 tracking-[0.04em] no-underline hover:text-text transition-colors">
+          <a href={`/${lang}#process`} className="font-mono text-xs text-text-3 tracking-[0.04em] no-underline hover:text-text transition-colors">
             {t.nav.process}
           </a>
           <LanguageToggle lang={lang} onToggle={toggleLang} />

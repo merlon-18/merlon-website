@@ -168,7 +168,7 @@ export default function Hero({ onOpenRadar }) {
           <button onClick={() => onOpenRadar()} className="btn-primary">
             {t.hero.ctaPrimary}
           </button>
-          <a href="#services" className="btn-secondary">
+          <a href={`/${lang}#services`} className="btn-secondary">
             {t.hero.ctaSecondary}
           </a>
         </motion.div>
